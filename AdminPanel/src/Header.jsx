@@ -1,15 +1,15 @@
-import React, { useState } from 'react';
-import { 
-  BsFillBellFill, 
-  BsFillEnvelopeFill, 
-  BsPersonCircle, 
-  BsSearch, 
-  BsJustify 
-} from 'react-icons/bs';
+import React, { useState } from "react";
+import {
+  BsFillBellFill,
+  BsFillEnvelopeFill,
+  BsPersonCircle,
+  BsSearch,
+  BsJustify,
+} from "react-icons/bs";
 
 function Header({ OpenSidebar }) {
   const [showSearchBar, setShowSearchBar] = useState(false);
-  const [searchQuery, setSearchQuery] = useState('');
+  const [searchQuery, setSearchQuery] = useState("");
 
   return (
     <header className="header">
